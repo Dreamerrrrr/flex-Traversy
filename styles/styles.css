@@ -5,12 +5,12 @@
     padding: 0%;
 
 }
-body{
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    line-height: 1.6rem;
-    color: #333;
-    background-color: #a1c3ff;
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 1.6rem;
+  color: #333;
+  background-color: #a1c3ff;
 }
 img{
     max-width: 100%;
