@@ -85,16 +85,30 @@ ul {
   align-items: center;
   justify-content: space-between;
 }
-.boxes .container{
-  display: flex; 
+.boxes .container {
+  display: flex;
   justify-content: space-between;
-  margin-top:10px;
 }
-.box{
-    flex: 1;
-    background-color: rgb(69, 69, 240, 0.7);
-    color: #fff;
-    margin: 20px 10px;
-    box-shadow: 20px;
-    padding: 10px 15px;
+.box {
+  flex: 1;
+  background-color: #0a51cc;
+  color: #fff;
+  border-radius: 10px;
+  margin: 20px 10px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+.box i{
+  margin: 10px;
+}
+@media (max-width: 768px){
+.header .container{
+  flex-direction: column;
+  padding-top: 20px;
+  text-align: center;
+}
+.boxes .container{
+  text-align: center;
+  display: block;
+}
 }
